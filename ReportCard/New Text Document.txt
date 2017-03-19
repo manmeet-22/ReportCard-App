@@ -1,0 +1,4 @@
+Hello Sir
+1) I have made a report card app on the subjects that i am studying in my college.
+2) I have used array Adapters.
+Hope yo would like the app.

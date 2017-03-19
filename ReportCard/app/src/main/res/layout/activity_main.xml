@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.androidexample.reportcard.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/intro"
+        android:textSize="35sp"
+        android:textAlignment="center"/>
+    <Button
+        android:id="@+id/studentClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/student"
+        android:layout_margin="30dp"
+        android:padding="25dp"
+        android:onClick="student"
+        android:textColor="@color/background"
+        android:textSize="18sp"
+        android:background="@color/colorPrimaryDark"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/teacherClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/teacher"
+        android:padding="25dp"
+        android:onClick="teacher"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/background"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:padding="10dp">
+
+<ImageView
+    android:id="@+id/subjectImage"
+    android:layout_width="@dimen/imageHeight"
+    android:layout_height="@dimen/imageHeight"
+    android:contentDescription="Subject Image">
+
+</ImageView>
+
+<TextView
+    android:id="@+id/subjectName"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:textSize="@dimen/textHeight"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true">
+</TextView>
+
+<TextView
+    android:id="@+id/subjectGrade"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:textSize="@dimen/textHeight"
+    android:layout_marginRight="40dp"
+    android:layout_marginEnd="40dp"
+    android:layout_centerVertical="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Report Card</string>
+    <string name="subject">Subject</string>
+    <string name="grade">Grade</string>
+    <string name="cgpa">Get CGPA</string>
+    <string name="info">Every Grade you want to know of your Child</string>
+    <string name="intro">Please Choose</string>
+    <string name="student">Student</string>
+    <string name="teacher">Teacher</string>
+    <string name="studentHeader">Student Report Card</string>
+    <string name="teacherHeader">Grade Input</string>
+</resources>

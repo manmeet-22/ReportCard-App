@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:padding="15dp"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:text="Please Enter the grades"
+        android:textColor="@color/background"
+        android:textSize="@dimen/headingHeight" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_vertical_margin">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="25dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginTop="10dp"
+                    android:text="CST"
+                    android:textSize="@dimen/normalHeight" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CN"
+                    android:textSize="@dimen/normalHeight" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="17dp"
+                    android:layout_marginTop="18dp"
+                    android:text="PSTC"
+                    android:textSize="@dimen/normalHeight" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NMST"
+                    android:textSize="@dimen/normalHeight" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginTop="17dp"
+                    android:text="OS"
+                    android:textSize="@dimen/normalHeight" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DELD"
+                    android:textSize="@dimen/normalHeight" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="17dp"
+                    android:layout_marginTop="15dp"
+                    android:text="DBMS"
+                    android:textSize="@dimen/normalHeight" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/cst"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter CST grades" />
+
+                <EditText
+                    android:id="@+id/cn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter CN grades" />
+
+                <EditText
+                    android:id="@+id/pstc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter PSTC grades" />
+
+                <EditText
+                    android:id="@+id/nmst"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter NMST grades" />
+
+                <EditText
+                    android:id="@+id/os"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter OS grades" />
+
+                <EditText
+                    android:id="@+id/deld"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter DELD grades" />
+
+                <EditText
+                    android:id="@+id/dbms"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter DBMS grades" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="marks"
+        android:text="Submit"
+        android:textColor="@color/background"
+        android:textSize="18sp" />
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".StudentActivity"
+android:orientation="vertical"
+android:background="@color/background"
+    >
+
+<TextView
+    android:padding="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/info"
+    android:background="@color/colorPrimaryDark"
+    android:textSize="@dimen/headingHeight"
+    android:textColor="@color/background"/>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    >
+
+    <TextView
+        android:id="@+id/blank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/subject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/subject"
+        android:textSize="@dimen/titleHeight"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/grade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/titleHeight"
+        android:textStyle="bold"
+        android:text="@string/grade"
+        android:layout_alignTop="@+id/subject"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="27dp"/>
+</RelativeLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <ListView
+        android:id="@+id/reportCardView"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#ffffff"/>
+
+    <Button android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cgpa"
+        android:onClick="cgpa"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textColor="@color/background"/>
+
+</LinearLayout>
+
+
+</LinearLayout>
